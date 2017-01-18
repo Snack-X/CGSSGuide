@@ -331,6 +331,11 @@
 		22548F9D37722946B2DE3BBB /* Pods_CGSSGuide.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CGSSGuide.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAC08E5FCC707441E3BB3424 /* Pods-CGSSGuide.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CGSSGuide.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CGSSGuide/Pods-CGSSGuide.debug.xcconfig"; sourceTree = "<group>"; };
 		B37A71CAFCD8386385BCF8B2 /* Pods-CGSSGuide.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CGSSGuide.release.xcconfig"; path = "Pods/Target Support Files/Pods-CGSSGuide/Pods-CGSSGuide.release.xcconfig"; sourceTree = "<group>"; };
+		DF16DC961E2F52030041A798 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		DF16DC971E2F52030041A798 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Main.strings; sourceTree = "<group>"; };
+		DF16DC981E2F52040041A798 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
+		DF16DC991E2F52040041A798 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DF16DC9A1E2F52040041A798 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = ko; path = ko.lproj/ToolboxList.plist; sourceTree = "<group>"; };
 		F57C42EA1DAB070F007CCFC7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		F57C42EB1DAB070F007CCFC7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		F57C42EC1DAB070F007CCFC7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -856,6 +861,7 @@
 				ja,
 				"zh-Hant-TW",
 				en,
+				ko,
 			);
 			mainGroup = 1282EE561D011A8F0024318C;
 			productRefGroup = 1282EE601D011A8F0024318C /* Products */;
@@ -1086,6 +1092,7 @@
 				124CF52C1DA0D77000ACF6F8 /* zh-Hant */,
 				124CF5321DA0DA7600ACF6F8 /* zh-Hant-TW */,
 				F57C42EC1DAB070F007CCFC7 /* en */,
+				DF16DC981E2F52040041A798 /* ko */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -1098,6 +1105,7 @@
 				1244F5E21D98E5230021E4B1 /* ja */,
 				124CF5301DA0D96000ACF6F8 /* zh-Hant-TW */,
 				F57C42ED1DAB070F007CCFC7 /* en */,
+				DF16DC991E2F52040041A798 /* ko */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -1110,6 +1118,7 @@
 				1244F5E91D98E6250021E4B1 /* ja */,
 				124CF5311DA0D96100ACF6F8 /* zh-Hant-TW */,
 				F57C42EE1DAB070F007CCFC7 /* en */,
+				DF16DC9A1E2F52040041A798 /* ko */,
 			);
 			name = ToolboxList.plist;
 			sourceTree = "<group>";
@@ -1122,6 +1131,7 @@
 				1244F5AB1D981CBD0021E4B1 /* ja */,
 				124CF52D1DA0D96000ACF6F8 /* zh-Hant-TW */,
 				F57C42EA1DAB070F007CCFC7 /* en */,
+				DF16DC961E2F52030041A798 /* ko */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -1134,6 +1144,7 @@
 				1244F5AC1D981CBE0021E4B1 /* ja */,
 				124CF52E1DA0D96000ACF6F8 /* zh-Hant-TW */,
 				F57C42EB1DAB070F007CCFC7 /* en */,
+				DF16DC971E2F52030041A798 /* ko */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
